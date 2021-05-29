@@ -1,0 +1,40 @@
+follow the link for problem statement.
+https://www.computerdeveloper.in/2021/04/tcs-xplore-cpa-25-feb-2021-python-.html
+
+sample input 1:
+Input :
+4
+A
+10
+B
+5
+O
+3
+AB
+8
+AB
+6
+
+Output :
+Blood Available.
+O
+
+Sample Input 2:
+5
+A
+10
+B
+5
+O
+2
+AB
+8
+A-
+2
+AB
+10
+
+Output :
+Blood Not Available.
+O
+A-
