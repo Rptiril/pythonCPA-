@@ -67,7 +67,7 @@ d. Finally, read values for travelerAge and country From.
 
 ii. Create a TravelAgency object by using the list created in point #c1.
 
-d. Read the name of the country to be passed to the function count Travelers TraveledCountry.
+d. Read the name of the country to be  to the function count Travelers TraveledCountry.
 
 e. Call the functions count Travelers Traveled Country by passing the value read in point #d as argument.
 
