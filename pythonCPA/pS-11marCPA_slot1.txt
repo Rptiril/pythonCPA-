@@ -1,0 +1,119 @@
+Create a class Product with the below attributes:
+
+productName – String
+
+product Type – String
+
+unitPrice – Number
+
+qtyOnHand – Number
+
+Where, productName represents the name of the Product, productType represents the type of the product, unitPrice represents the unit price of the Product and qtyOnHand represents the quantity of the Product in hand or stock. Define the __init__ method to initialize the 4 attributes in the above sequence.
+
+Create a class Store with below attributes:
+
+productList – A list of Product Objects
+
+Define one method purchaseProduct in the class to fulfill the requirement specified below.
+
+purchaseproduct: This method takes two input parameters
+
+1) A string representing the name of product. 
+
+2) A number representing quantity to the purchased .
+
+The method will search for the product in the productList of the Store with the name same as the input parameter.
+
+If the product with the name passed as argument is not found in the productList of the store or a product with that name is found but the qtyOnHand value of the product found is 0, then the method returns None.
+
+If the product with the name passed as argument is found in the list and the quantity given as input argument is greater than the qtyOnHand value of the product found in the productList, then the method calculates the bill as per the formula below and returns the bill: 
+
+bill = (unit Price* qtyOnHand of the Product identified).
+
+If the product with the name passed as argument is found in the list and the quantity given as input argument is lesser than or equal to the qtyOnHand value of the product found in the productList, then the method calculates the bill as per the formula below and returns the bill:
+
+bill = (unit Price*quantity passed as argument) 
+
+Method will also update the qtyOnHand value of the product found in the productList by substracting the quantity considered for bill calculation from the previous qtyOnHand for the Product.
+
+Note: All the searches should be case insensitive. No two products will have same name.
+
+Instructions to write main function of the code:
+
+a. You would require to write the main section completely. Hence please follow the below instructions for the same.
+
+b. You would require to write the main program which is inline to the “sample input description fulfill the init method requirement defined in the respective classes referring to the below section” mentioned below and to read the data in the same sequence.
+
+c. Create the respective objects (product and store) with the given sequence of arguments to instructions.
+
+1. Create a list of Products for the Store’s attribute productList. To create the list,
+
+i. First read the number of Products you want to store in the list.
+
+ii. Create a Product object after reading the data related to it and add the Product object to the list of Product objects to be created (the number read in the first line of input in point #c.1.i) 
+
+2. Create Store object by passing the productList (created as mentioned in the above point #c.1.ii) as the argument.
+
+3. Read a string representing the name of the product to be passed as the first argument to the method purchase Product().
+
+4. Now read a number representing the quantity to be passed as the second argument to the method purchase Product().
+
+5. Call the method purchase Product() by passing name of the product taken as input (read in point #3) and the quantity read in point #4 and print the bill amount.
+
+If the method returns None, print “Product not available.” (excluding the quotes). Please refer to the sample output for clarity on format of output message.
+
+6. Display the name of the product and the quantity on hand for each Product in the productList of the Store object created in the main section (point #2) in the below format.
+
+Please refer to the sample output for clarity on format of output message:
+
+You can use/refer the below given sample input and output to verify your solution, Consider below sample input and output.
+
+The 1st input taken in the main section is the number of Products to be added to the productList of the Store class.
+
+The next set of inputs are the product name, product type, unit price and quantiry on hand for each Product object to be created and added to the list one after another and is repeated for the number of product objects given in the first line of input. 
+
+The next input is the product name to be passed as the list argument to the method purchase Product().
+
+The last line of input refers the quantity of product to be purchased to be passed as the 2nd argument to the purchase Product() .
+
+Input :
+
+3
+
+White board
+
+stationary
+
+200
+
+4
+
+Duster
+
+stationary
+
+20
+
+10
+
+marker
+
+stationary
+
+40
+
+0
+
+marker
+
+5
+
+Output :
+
+Product not available.
+
+White board 4
+
+Duster 10
+
+marker 0

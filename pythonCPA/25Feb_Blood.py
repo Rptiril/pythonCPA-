@@ -3,8 +3,6 @@ class Blood:
     def __init__(self,bloodGroup,unitInHand):
         self.bloodGroup = bloodGroup
         self.unitInHand = unitInHand
-
-
 class BloodBank:
     
     def __init__(self,bloodList):
