@@ -77,43 +77,23 @@ The next input is the product name to be passed as the list argument to the meth
 The last line of input refers the quantity of product to be purchased to be passed as the 2nd argument to the purchase Product() .
 
 Input :
-
 3
-
 White board
-
 stationary
-
 200
-
 4
-
 Duster
-
 stationary
-
 20
-
 10
-
 marker
-
 stationary
-
 40
-
 0
-
 marker
-
 5
-
 Output :
-
 Product not available.
-
 White board 4
-
 Duster 10
-
 marker 0
